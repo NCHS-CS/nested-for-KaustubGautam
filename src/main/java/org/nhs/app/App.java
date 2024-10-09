@@ -45,11 +45,11 @@
 public class App{
     public static void main(String args[]){
         for(int line = 1; line <=5;line++){
-           for(int dot1=4-line; dot1>=0;dot1--)
+           for(int dot1=5-line; dot1>0;dot1--)
            System.out.print(".");    
            System.out.print(line);
         
-        for(int dot2=0; dot2<=line-1;dot2++)
+        for(int dot2=0; dot2<line-1;dot2++)
            System.out.print(".");
            System.out.println();}
      
